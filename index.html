@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mapa Ayacucho</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src='https://api.mapbox.com/mapbox.js/v2.2.3/mapbox.js'></script>
+    <link href='https://api.mapbox.com/mapbox.js/v2.2.3/mapbox.css' rel='stylesheet'/>
+    <script src='https://api.mapbox.com/mapbox.js/plugins/mapbox-directions.js/v0.4.0/mapbox.directions.js'></script>
+<link rel='stylesheet' href='https://api.mapbox.com/mapbox.js/plugins/mapbox-directions.js/v0.4.0/mapbox.directions.css' type='text/css' />
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script src='data.geojson'></script>
+</head>
+<style>
+ #map {position:absolute;
+  top:80px;left:0px; bottom:0; width:100%;height:669px; margin:1px; 
+  padding:1px; border-radius: 10px;}
+</style>
+<style>
+#inputs,
+#errors,
+#directions {
+    position: absolute;
+    width: 18.3333%;
+    max-width: 300px;
+    min-width: 200px;
+}
+
+#inputs {
+    z-index: 10;
+    top: 600px;
+    left: 600px;
+}
+
+#directions {
+    z-index: 99;
+    background: rgba(0,0,0,.8);
+    top: 80px;
+    right: 1px;
+    height:669px;
+    bottom: 0;
+    overflow: auto;
+}
+#errors {
+    z-index: 8;
+    opacity: 0;
+    padding: 10px;
+    border-radius: 0 0 3px 3px;
+    background: rgba(0,0,0,.25);
+    top: 600px;
+    left: 200px;
+}
+.menu-ui {
+  background:#7EC4E9;
+  position:relative;
+  top:170px;right:0px;
+  left: -1180px;
+  z-index:1;
+  border-radius:3px;
+  width:150px;
+  border:1px solid rgba(0,0,0,0.4);
+  height:375px;
+  }
+  .menu-ui a {
+    font-size:15px;
+    color:#404040;
+    display:block;
+    margin:0;padding:0;
+    padding:10px;
+    text-decoration:none;
+    border-bottom:1px solid rgba(0,0,0,0.25);
+    text-align:center;
+    }
+    .menu-ui a:first-child {
+      border-radius:3px 3px 0 0;
+      }
+    .menu-ui a:last-child {
+      border:none;
+      border-radius:0 0 3px 3px;
+      }
+    .menu-ui a:hover {
+      background:#f8f8f8;
+      color:#404040;
+      }
+    .menu-ui a.active,
+    .menu-ui a.active:hover {
+      background:#333;
+      color:#DEEC08;
+      }
+     
+.css-icon {
+width: 0;
+  height: 0;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  border-left: 30px solid #ff8888;
+  }
+</style>
+<body>
+	<div class="container">
+		<header id="main-header">
+            <a id="logo-header" href="#">
+                <span class="site-name">Ayacucho Perú</span>
+                <span class="site-desc">Ciudad de las 33 Iglesias</span>
+             </a> <!-- / #logo-header -->
+ 
+        <nav>
+            <ul>
+                <li><a href="https://www.facebook.com/munihuamanga">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+             <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav><!-- / nav -->
+ 
+        </header><!-- / #main-header -->
+		
+		  <div class="row">
+		 	 	<div id="map" class="colo-md-12"></div> 		 		
+		  </div>
+
+		 <nav id='menu-ui' class='menu-ui'>
+ 			 <a href='#' class='active' id='filter-all'>Mostrar todo</a>
+ 			 <a href='#' id='filter-hotel'>Hospedajes</a>
+ 			 <a href='#' id='filter-bar'>Bares y discotecas</a>
+ 			 <a href='#' id='filter-bank'>Financieras</a>
+ 			 <a href='#' id='filter-restaurant'>Restaurantes</a>
+             <a href='#' id='filter-bus_station'>Transporte</a>
+             <a href='#' id='filter-place_of_worship'>Lugares de culto</a>
+             <a href='#' id='filter-attraction'>Atractivos</a>
+             <a href='#' id='filter-nothing'>No mostrar</a>
+		</nav>
+        <div id='inputs'></div>
+        <div id='errors'></div>
+        <div id="directions">
+        <div id='routes'></div>
+        <div id='instructions'></div> 
+         </div>
+
+        <div class="row">
+           <footer id="main-footer" class="colo-md-12">
+                 <p>&copy; 2015 <a href="http://www.munihuamanga.gob.pe/pagina_mph_2015/views/index.html">www.munihuamanga.gob.pe</a></p>
+           </footer> <!-- / #main-footer -->
+            
+      </div>
+    
+	</div>
+
+<script>
+L.mapbox.accessToken = 'pk.eyJ1IjoiY2VzYXIyOCIsImEiOiI0Mm8yUkhnIn0.u8GrcBcjxtt7ao-6LC5TiQ';
+var map = L.mapbox.map('map', 'cesar28.m194al8c');
+        restaurant = document.getElementById('filter-restaurant'),
+        banks = document.getElementById('filter-bank'),
+        bars = document.getElementById('filter-bar'),
+        hoteles=document.getElementById('filter-hotel'),
+        transportes=document.getElementById('filter-bus_station'),
+        iglesias=document.getElementById('filter-place_of_worship'),
+        atractivos=document.getElementById('filter-attraction'),
+        none=document.getElementById('filter-nothing'),
+        all = document.getElementById('filter-all');
+          
+// move the attribution control out of the way
+map.attributionControl.setPosition('bottomleft');
+
+// create the initial directions object, from which the layer
+// and inputs will pull data.
+var directions = L.mapbox.directions();
+
+var directionsLayer = L.mapbox.directions.layer(directions)
+    .addTo(map);
+
+var directionsInputControl = L.mapbox.directions.inputControl('inputs', directions)
+    .addTo(map);
+
+var directionsErrorsControl = L.mapbox.directions.errorsControl('errors', directions)
+    .addTo(map);
+
+var directionsRoutesControl = L.mapbox.directions.routesControl('routes', directions)
+    .addTo(map);
+
+var directionsInstructionsControl = L.mapbox.directions.instructionsControl('instructions', directions)
+    .addTo(map);
+
+
+for (var i = 1; i < geojson.features.length; i++) {
+ geojson.features[i].properties["title"]= geojson.features[i].properties.name;
+
+    if(geojson.features[i].properties.amenity=="restaurant"){
+    geojson.features[i].properties["marker-color"]="#ff8c00";
+    geojson.features[i].properties["marker-symbol"]="restaurant";
+      
+    }
+    if(geojson.features[i].properties.tourism=="hotel"){
+    geojson.features[i].properties["marker-color"]="#8a2be2";
+    geojson.features[i].properties["marker-symbol"]="lodging";
+    
+    }
+
+      if(geojson.features[i].properties.amenity=="bar"){
+    geojson.features[i].properties["marker-color"]="#E14AA6";
+    geojson.features[i].properties["marker-symbol"]="bar";
+      
+    }
+     if(geojson.features[i].properties.amenity=="nightclub"){
+    geojson.features[i].properties["marker-color"]="#E14AA6";
+    geojson.features[i].properties["marker-symbol"]="bar";
+      
+    }
+     if(geojson.features[i].properties.amenity=="bank"){
+    geojson.features[i].properties["marker-color"]="#A6DF31";
+    geojson.features[i].properties["marker-symbol"]="bank";
+      
+    }
+    if(geojson.features[i].properties.amenity=="bus_station"){
+    geojson.features[i].properties["marker-color"]="#F3EF0C";
+    geojson.features[i].properties["marker-symbol"]="bus";
+      
+    }
+    if(geojson.features[i].properties.amenity=="place_of_worship"){
+    geojson.features[i].properties["marker-color"]="#DD451A";
+    geojson.features[i].properties["marker-symbol"]="religious-christian";
+      
+    }
+
+    if(geojson.features[i].properties.tourism=="attraction"){
+    geojson.features[i].properties["marker-color"]="#131010";
+    geojson.features[i].properties["marker-symbol"]="star-stroked";
+      
+    }
+    if(geojson.features[i].properties.amenity=="nothing"){
+    geojson.features[i].properties["marker-color"]="#131010";
+    geojson.features[i].properties["marker-symbol"]="hairdresser";
+      
+    }
+
+    };
+
+
+var markers = L.mapbox.featureLayer()
+    .setGeoJSON(geojson)
+    .addTo(map);
+
+    bars.onclick = function(e) {
+        all.className = '';
+        hoteles.className = '';
+        // bars.className = '';
+        banks.className = '';
+        transportes.className = '';
+        restaurant.className = '';
+        atractivos.className = '';
+        none.className = '';
+        this.className = 'active';
+      
+        markers.setFilter(function(f) {
+            return f.properties['marker-symbol'] === 'beer' || f.properties['marker-symbol'] === 'bar';
+        });
+        return false;
+ };
+      restaurant.onclick = function(e) {
+        all.className = '';
+        hoteles.className = '';
+        bars.className = '';
+        banks.className = '';
+        transportes.className = '';
+        iglesias.className = '';
+        atractivos.className = '';
+        none.className = '';
+        this.className = 'active';
+        markers.setFilter(function(f) {
+            return f.properties['marker-symbol'] === 'restaurant';
+        });
+        return false;
+ };
+      banks.onclick = function(e) {
+        all.className = '';
+        hoteles.className = '';
+        bars.className = '';
+        transportes.className = '';
+        restaurant.className = '';
+        iglesias.className = '';
+        atractivos.className = '';
+        none.className = '';
+        // banks.className = '';
+        this.className = 'active';
+        markers.setFilter(function(f) {
+            return f.properties['marker-symbol'] === 'bank';
+        });
+        return false;
+ };
+      hoteles.onclick = function(e) {
+        all.className = '';
+        banks.className = '';
+        bars.className = '';
+        transportes.className = '';
+        restaurant.className = '';
+        iglesias.className = '';
+        atractivos.className = '';
+        none.className = '';
+        // hoteles.className = '';
+        this.className = 'active';
+        markers.setFilter(function(f) {
+            return f.properties['marker-symbol'] === 'lodging';
+        });
+        return false;
+    };
+    transportes.onclick = function(e) {
+        all.className = '';
+        banks.className = '';
+        hoteles.className = '';
+        bars.className = '';
+        restaurant.className = '';
+        iglesias.className = '';
+        atractivos.className = '';
+        none.className = '';
+        // transportes.className = '';
+        this.className = 'active';
+             markers.setFilter(function(f) {
+            return f.properties['marker-symbol'] === 'bus';
+        });
+        return false;
+    };
+    iglesias.onclick = function(e) {
+        all.className = '';
+        banks.className = '';
+        hoteles.className = '';
+        bars.className = '';
+        transportes.className = '';
+        restaurant.className = '';
+        atractivos.className = '';
+        none.className = '';
+        // iglesias.className = '';
+        this.className = 'active';
+        markers.setFilter(function(f) {
+            return f.properties['marker-symbol'] === 'religious-christian';
+        });
+        return false;
+    };
+    atractivos.onclick = function(e) {
+        all.className = '';
+        banks.className = '';
+        hoteles.className = '';
+        bars.className = '';
+        transportes.className = '';
+        restaurant.className = '';
+        iglesias.className = '';
+        none.className = '';
+        //atractivos.className = '';
+        this.className = 'active';
+        markers.setFilter(function(f) {
+            return f.properties['marker-symbol'] === 'star-stroked';
+        });
+        return false;
+    };
+
+    all.onclick = function() {
+        hoteles.className = '';
+        bars.className = '';
+        restaurant.className = '';
+        banks.className = '';
+        transportes.className = '';
+        iglesias.className = '';
+        atractivos.className = '';
+        none.className = '';
+        this.className = 'active';
+        markers.setFilter(function(f) {
+                    return true;
+        });
+
+        return false;
+    };
+    none.onclick = function(e) {
+        all.className = '';
+        banks.className = '';
+        hoteles.className = '';
+        bars.className = '';
+        transportes.className = '';
+        restaurant.className = '';
+        atractivos.className = '';
+        iglesias.className = '';
+        //none.className = '';
+        this.className = 'active';
+        markers.setFilter(function(f) {
+            return f.properties['marker-symbol'] === 'hairdresser';
+        });
+        return false;
+    };
+var cssIcon = L.divIcon({
+    className: 'css-icon',
+    iconSize: [40, 40]
+    
+});
+
+    map.locate({
+        enableHighAccuracy: true
+      });
+
+    map.on('locationfound', onLocationFound);
+
+  function onLocationFound(position) {
+     var mycoor=position.latlng;
+   var marker = L.marker([mycoor.lat,mycoor.lng],{icon: cssIcon});
+    map.addLayer(marker);
+    marker.bindPopup("UD. ESTA AQUÍ");
+      }
+ 
+</script>
+</body>
+</html>

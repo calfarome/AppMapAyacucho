@@ -1,0 +1,6249 @@
+var geojson = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "way/316476302",
+      "properties": {
+        "@id": "way/316476302",
+        "amenity": "restaurant",
+        "area": "yes",
+        "building": "yes",
+        "name": "Recreo Turístico"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1920106,
+              -13.1137072
+            ],
+            [
+              -74.192069,
+              -13.1137779
+            ],
+            [
+              -74.1921204,
+              -13.1138227
+            ],
+            [
+              -74.1922248,
+              -13.1139261
+            ],
+            [
+              -74.1922,
+              -13.1140037
+            ],
+            [
+              -74.192023,
+              -13.1141571
+            ],
+            [
+              -74.1919222,
+              -13.1142226
+            ],
+            [
+              -74.1919239,
+              -13.1142484
+            ],
+            [
+              -74.1918673,
+              -13.1142846
+            ],
+            [
+              -74.1918496,
+              -13.1142587
+            ],
+            [
+              -74.1916833,
+              -13.1143294
+            ],
+            [
+              -74.1915523,
+              -13.114095
+            ],
+            [
+              -74.191678,
+              -13.1138934
+            ],
+            [
+              -74.1920106,
+              -13.1137072
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/374600966",
+      "properties": {
+        "@id": "way/374600966",
+        "amenity": "restaurant",
+        "cuisine": "Polleria"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.2109768,
+              -13.1678754
+            ],
+            [
+              -74.2109343,
+              -13.1678856
+            ],
+            [
+              -74.2109084,
+              -13.1677837
+            ],
+            [
+              -74.210951,
+              -13.1677734
+            ],
+            [
+              -74.2109768,
+              -13.1678754
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/931515675",
+      "properties": {
+        "@id": "node/931515675",
+        "name": "Casa Chacón",
+        "tourism": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.225798,
+          -13.1595828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/932170824",
+      "properties": {
+        "@id": "node/932170824",
+        "name": "Centro Turístico Cultural San Cristobal",
+        "tourism": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2269472,
+          -13.1616351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/932213212",
+      "properties": {
+        "@id": "node/932213212",
+        "name": "Arco del Triunfo",
+        "tourism": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2270049,
+          -13.1631601
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/932213221",
+      "properties": {
+        "@id": "node/932213221",
+        "amenity": "bank",
+        "name": "Banco de la Nación",
+        "name_1": "Casa Olano"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2264254,
+          -13.1616024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1824583743",
+      "properties": {
+        "@id": "node/1824583743",
+        "amenity": "bus_station",
+        "name": "Agencia Cruz del Sur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2273876,
+          -13.1568354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2387254737",
+      "properties": {
+        "@id": "node/2387254737",
+        "addr:city": "Ayacucho",
+        "addr:housename": "Portal Constitución 4 Plaza de Armas",
+        "amenity": "restaurant",
+        "cuisine": "regional,_international",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Cafe ViaVia",
+        "outdoor_seating": "yes",
+        "phone": "0051/66312834",
+        "smoking": "dedicated",
+        "website": "http://www.viaviacafe.com/en/ayacucho",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2265183,
+          -13.1606002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2523277871",
+      "properties": {
+        "@id": "node/2523277871",
+        "name": "La Colmena",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2245367,
+          -13.1602605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3061618668",
+      "properties": {
+        "@id": "node/3061618668",
+        "name": "Casa Boza y Solís ( Gobernación de Ayacucho)",
+        "tourism": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.226409,
+          -13.1601079
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3061618670",
+      "properties": {
+        "@id": "node/3061618670",
+        "name": "Mirador Cerro Acuchimay",
+        "tourism": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2219156,
+          -13.1716642
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3061618675",
+      "properties": {
+        "@id": "node/3061618675",
+        "amenity": "place_of_worship",
+        "denomination": "catholic",
+        "name": "Templo Santa Ana",
+        "religion": "christian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2310585,
+          -13.17017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3083155565",
+      "properties": {
+        "@id": "node/3083155565",
+        "amenity": "bus_station",
+        "name": "Expreso los Chankas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2238061,
+          -13.1564946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3083442669",
+      "properties": {
+        "@id": "node/3083442669",
+        "amenity": "bar",
+        "name": "El Cristalito"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2218896,
+          -13.1523718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3083442670",
+      "properties": {
+        "@id": "node/3083442670",
+        "amenity": "restaurant",
+        "cuisine": "cevicheria;marisqueria",
+        "name": "El Punto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2212081,
+          -13.1540356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3083442672",
+      "properties": {
+        "@id": "node/3083442672",
+        "amenity": "restaurant",
+        "name": "Recreo - Restaurant Manuel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.221428,
+          -13.1540823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3083458932",
+      "properties": {
+        "@id": "node/3083458932",
+        "addr:housenumber": 1228,
+        "addr:street": "Avenida Mariscal Cáceres",
+        "amenity": "bank",
+        "name": "Cooperativa de Ahorro y Credito Fortaleza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2271918,
+          -13.1569863
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3083459533",
+      "properties": {
+        "@id": "node/3083459533",
+        "amenity": "bank",
+        "name": "Financiera Edificar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2271395,
+          -13.1579967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3083459534",
+      "properties": {
+        "@id": "node/3083459534",
+        "amenity": "restaurant",
+        "cuisine": "Polleria",
+        "name": "Wallpa Sua"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2272998,
+          -13.1588421
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3083472912",
+      "properties": {
+        "@id": "node/3083472912",
+        "amenity": "bank",
+        "name": "Banco Interbank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2260776,
+          -13.1587999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3083472915",
+      "properties": {
+        "@id": "node/3083472915",
+        "amenity": "restaurant",
+        "cuisine": "Cevicheria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2274287,
+          -13.1605584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3083505091",
+      "properties": {
+        "@id": "node/3083505091",
+        "amenity": "bus_station",
+        "name": "Agencia Apu Suyo Drakos S.A.C."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2237165,
+          -13.156984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3083608295",
+      "properties": {
+        "@id": "node/3083608295",
+        "addr:housenumber": 202,
+        "addr:street": "Jirón 28 De Julio",
+        "amenity": "bank",
+        "name": "Caja Rural de Ahorro y Credito Los Libertadores de Ayacucho S.A."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2268491,
+          -13.1620901
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3084055287",
+      "properties": {
+        "@id": "node/3084055287",
+        "amenity": "bus_station",
+        "name": "Tusrismo Divino Señor S.A.C."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2236802,
+          -13.1565079
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3084063476",
+      "properties": {
+        "@id": "node/3084063476",
+        "amenity": "restaurant",
+        "name": "El Embarcadero"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2240203,
+          -13.1554766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3084076768",
+      "properties": {
+        "@id": "node/3084076768",
+        "amenity": "bank",
+        "name": "BBVA Continental"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2260293,
+          -13.1596928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3084076771",
+      "properties": {
+        "@id": "node/3084076771",
+        "amenity": "bank",
+        "name": "Banco de Credito del Peru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.225832,
+          -13.1597256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3084076774",
+      "properties": {
+        "@id": "node/3084076774",
+        "amenity": "bank",
+        "name": "Caja Municipal de Ahorro y Credito Ica S.A."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2260178,
+          -13.1609749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3084076775",
+      "properties": {
+        "@id": "node/3084076775",
+        "amenity": "bank",
+        "name": "Cooperativa de Ahorro y Credito San Cristobal de Huamanga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2255899,
+          -13.1597658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3084076776",
+      "properties": {
+        "@id": "node/3084076776",
+        "amenity": "restaurant",
+        "cuisine": "Polleria",
+        "name": "El Retablo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2247878,
+          -13.1584118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3084076779",
+      "properties": {
+        "@id": "node/3084076779",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Totto's Pizzas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2247293,
+          -13.1581451
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3084092050",
+      "properties": {
+        "@id": "node/3084092050",
+        "amenity": "nightclub",
+        "name": "Discoteka La Mega"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2238337,
+          -13.1550981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3084675894",
+      "properties": {
+        "@id": "node/3084675894",
+        "addr:housenumber": 241,
+        "addr:street": "Jirón Arequipa",
+        "amenity": "bank",
+        "name": "MiBanco",
+        "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-12:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2230065,
+          -13.1615138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3084739405",
+      "properties": {
+        "@id": "node/3084739405",
+        "name": "Hotel Sierra Dorada",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2256905,
+          -13.1490741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3084800680",
+      "properties": {
+        "@id": "node/3084800680",
+        "amenity": "restaurant",
+        "cuisine": "Cevicheria",
+        "name": "Cevicheria Marisqueria La Choza del Norte"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2254849,
+          -13.1492581
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3084814207",
+      "properties": {
+        "@id": "node/3084814207",
+        "amenity": "restaurant",
+        "cuisine": "Polleria",
+        "name": "Caselli"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2265861,
+          -13.1479932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3084820503",
+      "properties": {
+        "@id": "node/3084820503",
+        "amenity": "bank",
+        "name": "Cooperativa de Ahorro y Credito TUPACOP"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2273447,
+          -13.149402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3084826682",
+      "properties": {
+        "@id": "node/3084826682",
+        "name": "Hostal Cumana",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2214007,
+          -13.1537337
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3084828166",
+      "properties": {
+        "@id": "node/3084828166",
+        "amenity": "restaurant",
+        "cuisine": "Cevicheria",
+        "name": "El Pino"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2259942,
+          -13.149042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3084828167",
+      "properties": {
+        "@id": "node/3084828167",
+        "amenity": "restaurant",
+        "cuisine": "Cevicheria",
+        "name": "Los Manglares"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2262452,
+          -13.1508948
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3084837218",
+      "properties": {
+        "@id": "node/3084837218",
+        "addr:housenumber": 431,
+        "addr:street": "Jr. 9 de Diciembre",
+        "amenity": "bank",
+        "name": "Caja Rural de Ahorro y Credito los Andes de Ayacucho",
+        "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-12:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.225383,
+          -13.1557083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3084839946",
+      "properties": {
+        "@id": "node/3084839946",
+        "amenity": "bank",
+        "name": "Cooperativa de Ahorro y Credito Niño Rey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2274775,
+          -13.1492027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3084850627",
+      "properties": {
+        "@id": "node/3084850627",
+        "amenity": "bank",
+        "name": "Cooperativa de Ahorro y Credito El Tumi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2257499,
+          -13.1507273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3084850628",
+      "properties": {
+        "@id": "node/3084850628",
+        "amenity": "bank",
+        "name": "CrediExitos Peru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2270085,
+          -13.149605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3084854810",
+      "properties": {
+        "@id": "node/3084854810",
+        "amenity": "bank",
+        "name": "Cooperativa de Ahorro y Credito Wari"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2256839,
+          -13.1506716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3084870155",
+      "properties": {
+        "@id": "node/3084870155",
+        "name": "Hotel Sol de Ayacucho",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2257709,
+          -13.1501693
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3084894204",
+      "properties": {
+        "@id": "node/3084894204",
+        "amenity": "nightclub",
+        "name": "Discoteka Ukukus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2237648,
+          -13.1551001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3084901600",
+      "properties": {
+        "@id": "node/3084901600",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Totto's Pizzas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2246711,
+          -13.1584587
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3084901769",
+      "properties": {
+        "@id": "node/3084901769",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Brenda's Pizza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2255896,
+          -13.1619436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3084901770",
+      "properties": {
+        "@id": "node/3084901770",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Chino chifa Aiyincchen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.225452,
+          -13.1613374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3084912098",
+      "properties": {
+        "@id": "node/3084912098",
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "Caja Arequipa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2274091,
+          -13.1607067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3084912099",
+      "properties": {
+        "@id": "node/3084912099",
+        "amenity": "bank",
+        "name": "Cooperativa de Ahorro y Crédito Santa María Magdalena",
+        "website": "http://www.coopsantamaria.com.pe/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2250814,
+          -13.162447
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3084912100",
+      "properties": {
+        "@id": "node/3084912100",
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "Crediscotia",
+        "website": "http://www.crediscotia.com.pe/Crediscotia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2275878,
+          -13.1606642
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3084921358",
+      "properties": {
+        "@id": "node/3084921358",
+        "name": "Hospedaje Venus",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2253495,
+          -13.1471544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3084938644",
+      "properties": {
+        "@id": "node/3084938644",
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "denomination": "jehovahs_witness",
+        "religion": "christian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2137687,
+          -13.1635434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3084951063",
+      "properties": {
+        "@id": "node/3084951063",
+        "amenity": "restaurant",
+        "cuisine": "Polleria",
+        "name": "Rockis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2255584,
+          -13.1453639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3084953475",
+      "properties": {
+        "@id": "node/3084953475",
+        "amenity": "restaurant",
+        "cuisine": "Polleria",
+        "name": "El TioPio"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.227635,
+          -13.1455585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3084954590",
+      "properties": {
+        "@id": "node/3084954590",
+        "addr:housenumber": 152,
+        "addr:street": "Jr. Tres Mascaras",
+        "internet_access": "yes",
+        "name": "Tinoco Apart Hotel",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2244955,
+          -13.1631798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3085001534",
+      "properties": {
+        "@id": "node/3085001534",
+        "addr:housenumber": 124,
+        "addr:street": "Jr. Salvador Cavero",
+        "amenity": "restaurant",
+        "cuisine": "Polleria",
+        "name": "El Nino"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2180305,
+          -13.1584232
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3085059861",
+      "properties": {
+        "@id": "node/3085059861",
+        "amenity": "restaurant",
+        "cuisine": "Ceviche",
+        "name": "Cevicheria y marisqueria el Muelle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2202645,
+          -13.1580315
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3085059862",
+      "properties": {
+        "@id": "node/3085059862",
+        "amenity": "bank",
+        "name": "Cooperativa de Ahorro y Credido Mujeres Emprendedoras"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2213044,
+          -13.1575628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3085059864",
+      "properties": {
+        "@id": "node/3085059864",
+        "amenity": "restaurant",
+        "cuisine": "Ceviche",
+        "name": "Marisqueria el Sub Marino"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2210833,
+          -13.1567135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3085059865",
+      "properties": {
+        "@id": "node/3085059865",
+        "amenity": "restaurant",
+        "cuisine": "Ceviche",
+        "name": "Restaurant y Cevicheria Ollantay"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2202724,
+          -13.1580681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3085075755",
+      "properties": {
+        "@id": "node/3085075755",
+        "amenity": "nightclub",
+        "name": "Discoteca HOT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2241123,
+          -13.1560054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3085092428",
+      "properties": {
+        "@id": "node/3085092428",
+        "amenity": "nightclub",
+        "name": "Discoteca Recreo Las Vegas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2218103,
+          -13.174631
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3085109376",
+      "properties": {
+        "@id": "node/3085109376",
+        "name": "Restaurant Hotel Los Alamos",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2237761,
+          -13.1601679
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3085141259",
+      "properties": {
+        "@id": "node/3085141259",
+        "addr:housenumber": 787,
+        "addr:street": "Av. Mariscal Caceres",
+        "amenity": "bank",
+        "name": "Caja Huancayo",
+        "opening_hours": "Mo-Fr 09:00-18:30; Sa 09:00-13:00",
+        "phone": "066-310827 / 066-310826"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.222016,
+          -13.1581753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3085141262",
+      "properties": {
+        "@id": "node/3085141262",
+        "name": "Hotel Yañes",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2270884,
+          -13.1570128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3085166876",
+      "properties": {
+        "@id": "node/3085166876",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Chifa Chin Ching"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.225173,
+          -13.157372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3085166877",
+      "properties": {
+        "@id": "node/3085166877",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "El Muky"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2258429,
+          -13.1572591
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3085166880",
+      "properties": {
+        "@id": "node/3085166880",
+        "amenity": "restaurant",
+        "cuisine": "sandwich",
+        "name": "Frutimix"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2254243,
+          -13.1559052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3085180786",
+      "properties": {
+        "@id": "node/3085180786",
+        "amenity": "restaurant",
+        "cuisine": "Cevicheria",
+        "name": "Cevicheria Marisqueria Cabo Blanco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2258248,
+          -13.1527445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3085183490",
+      "properties": {
+        "@id": "node/3085183490",
+        "amenity": "restaurant",
+        "cuisine": "Cevicheria",
+        "name": "Cevicheria Marisqueria La Tribuna Marina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2256605,
+          -13.1529525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3085198471",
+      "properties": {
+        "@id": "node/3085198471",
+        "amenity": "restaurant",
+        "name": "La Preferida"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2270917,
+          -13.1497477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3085198473",
+      "properties": {
+        "@id": "node/3085198473",
+        "amenity": "restaurant",
+        "cuisine": "sandwich",
+        "name": "Por la Fruta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2254051,
+          -13.1517671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3085198474",
+      "properties": {
+        "@id": "node/3085198474",
+        "amenity": "restaurant",
+        "cuisine": "Cevicheria",
+        "name": "Ya Pez"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2259859,
+          -13.1512669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3085198475",
+      "properties": {
+        "@id": "node/3085198475",
+        "amenity": "restaurant",
+        "cuisine": "Cevicheria",
+        "name": "El Buen Norteño"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2256256,
+          -13.151483
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3085204865",
+      "properties": {
+        "@id": "node/3085204865",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Don Angelo Pizzeria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.225904,
+          -13.1578747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3085210580",
+      "properties": {
+        "@id": "node/3085210580",
+        "amenity": "bank",
+        "name": "AFPIntegra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2262457,
+          -13.1594599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3085216713",
+      "properties": {
+        "@id": "node/3085216713",
+        "amenity": "bank",
+        "name": "Cooperativa de Ahorro y Credito Peru Universitario"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2172064,
+          -13.1529675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3085228485",
+      "properties": {
+        "@id": "node/3085228485",
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "Caja Huancayo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2278839,
+          -13.1593809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3085228488",
+      "properties": {
+        "@id": "node/3085228488",
+        "amenity": "restaurant",
+        "name": "El Gran Pez"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.229458,
+          -13.1590566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3085228490",
+      "properties": {
+        "@id": "node/3085228490",
+        "name": "Hotel Rivera",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2287861,
+          -13.1590914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3085228494",
+      "properties": {
+        "@id": "node/3085228494",
+        "amenity": "bank",
+        "name": "ProEmpresa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2267328,
+          -13.1595336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3085228495",
+      "properties": {
+        "@id": "node/3085228495",
+        "name": "San Francisco de Paula",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2284681,
+          -13.1591503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3085257909",
+      "properties": {
+        "@id": "node/3085257909",
+        "amenity": "bank",
+        "name": "Federacion de Comerciantes del VRAEM"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2290711,
+          -13.1619301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3085257911",
+      "properties": {
+        "@id": "node/3085257911",
+        "name": "Hotel Colonial",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2293393,
+          -13.1622515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3085257912",
+      "properties": {
+        "@id": "node/3085257912",
+        "name": "Hotel Los Libertadores",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2293054,
+          -13.1620173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3085269068",
+      "properties": {
+        "@id": "node/3085269068",
+        "amenity": "restaurant",
+        "name": "El Toro Rojo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2279348,
+          -13.1511575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3085269979",
+      "properties": {
+        "@id": "node/3085269979",
+        "amenity": "restaurant",
+        "name": "Fu Long"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2241252,
+          -13.1560851
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3085281244",
+      "properties": {
+        "@id": "node/3085281244",
+        "amenity": "restaurant",
+        "cuisine": "polleria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2267205,
+          -13.1502619
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3085281245",
+      "properties": {
+        "@id": "node/3085281245",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2270385,
+          -13.1498092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3085281246",
+      "properties": {
+        "@id": "node/3085281246",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2276247,
+          -13.1541977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3085281247",
+      "properties": {
+        "@id": "node/3085281247",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2276674,
+          -13.1544942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3085295194",
+      "properties": {
+        "@id": "node/3085295194",
+        "amenity": "restaurant",
+        "cuisine": "Cevicheria",
+        "name": "Marisquería Picantería Lo Mejor del Norte"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2257721,
+          -13.1515578
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3085295195",
+      "properties": {
+        "@id": "node/3085295195",
+        "amenity": "restaurant",
+        "cuisine": "Cevicheria",
+        "name": "La Bolichera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2255766,
+          -13.1518255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3085296154",
+      "properties": {
+        "@id": "node/3085296154",
+        "amenity": "restaurant",
+        "cuisine": "Cevicheria",
+        "name": "Sabor a Norte"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2256182,
+          -13.1504301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3085296719",
+      "properties": {
+        "@id": "node/3085296719",
+        "amenity": "bank",
+        "name": "Cooperativa Federacion de Comerciantes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2282434,
+          -13.157742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3085297576",
+      "properties": {
+        "@id": "node/3085297576",
+        "amenity": "bank",
+        "name": "Cooperativa Kallpa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2280147,
+          -13.1564361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3085297577",
+      "properties": {
+        "@id": "node/3085297577",
+        "amenity": "bank",
+        "name": "Cooperativa San Miguel de Arcangel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2279758,
+          -13.1562902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3085298775",
+      "properties": {
+        "@id": "node/3085298775",
+        "amenity": "restaurant",
+        "cuisine": "Cevicheria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2258949,
+          -13.15307
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3085301854",
+      "properties": {
+        "@id": "node/3085301854",
+        "amenity": "restaurant",
+        "cuisine": "Cevicheria",
+        "name": "La Barra Restaurant Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2250913,
+          -13.1524678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3085301855",
+      "properties": {
+        "@id": "node/3085301855",
+        "amenity": "restaurant",
+        "cuisine": "Cevicheria",
+        "name": "Club las Rondas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2249939,
+          -13.1526101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3085304584",
+      "properties": {
+        "@id": "node/3085304584",
+        "amenity": "bank",
+        "name": "Cooperativa Señor de Quinuapata"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2276597,
+          -13.1552746
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086011767",
+      "properties": {
+        "@id": "node/3086011767",
+        "amenity": "place_of_worship",
+        "denomination": "catholic",
+        "name": "Capilla Santa Rosa",
+        "religion": "christian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2098132,
+          -13.168677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086011768",
+      "properties": {
+        "@id": "node/3086011768",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "El Vischonguino"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2097633,
+          -13.1683673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086011770",
+      "properties": {
+        "@id": "node/3086011770",
+        "name": "Hotel Las Terrazas",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2093687,
+          -13.1687064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086017004",
+      "properties": {
+        "@id": "node/3086017004",
+        "amenity": "restaurant",
+        "cuisine": "Polleria",
+        "name": "El Mostrito"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2100794,
+          -13.1701404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086025193",
+      "properties": {
+        "@id": "node/3086025193",
+        "amenity": "place_of_worship",
+        "denomination": "catholic",
+        "name": "Capilla Señor de Arequipa",
+        "religion": "christian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.212911,
+          -13.167703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086025194",
+      "properties": {
+        "@id": "node/3086025194",
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "Cooperativa de Ahorro y Crédito San Cristobal de Huamanga - Agencia San Juan Bautista"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2127785,
+          -13.1677643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086031094",
+      "properties": {
+        "@id": "node/3086031094",
+        "name": "Hospedaje Mi Cielo",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2116768,
+          -13.1680309
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086080663",
+      "properties": {
+        "@id": "node/3086080663",
+        "amenity": "bus_station",
+        "name": "Expreso Antezana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2258827,
+          -13.1559935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086100790",
+      "properties": {
+        "@id": "node/3086100790",
+        "amenity": "bus_station",
+        "name": "Expreso Libertadores"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2256384,
+          -13.1560361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086100791",
+      "properties": {
+        "@id": "node/3086100791",
+        "amenity": "bus_station",
+        "name": "Expreso Molina Union"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2257522,
+          -13.1553529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086101123",
+      "properties": {
+        "@id": "node/3086101123",
+        "amenity": "bank",
+        "name": "Cooperativa de Ahorro y Credido Bella Esmeralda Huanta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2211345,
+          -13.1583409
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086109527",
+      "properties": {
+        "@id": "node/3086109527",
+        "name": "Hotel Kankun",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2110548,
+          -13.1694327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086113591",
+      "properties": {
+        "@id": "node/3086113591",
+        "amenity": "bus_station",
+        "name": "Terminal Sur de Ayacucho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2112031,
+          -13.1693367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086126987",
+      "properties": {
+        "@id": "node/3086126987",
+        "amenity": "restaurant",
+        "cuisine": "polleria",
+        "name": "Pollos al Cilindro El Fortachon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2171237,
+          -13.1530811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086126999",
+      "properties": {
+        "@id": "node/3086126999",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2173894,
+          -13.1525647
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086127006",
+      "properties": {
+        "@id": "node/3086127006",
+        "amenity": "restaurant",
+        "cuisine": "polleria;chifa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.217357,
+          -13.1531377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086127368",
+      "properties": {
+        "@id": "node/3086127368",
+        "amenity": "restaurant",
+        "cuisine": "cevicheria",
+        "name": "Cevicheria - Marisqueria Chin Chin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2198466,
+          -13.1545899
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086127369",
+      "properties": {
+        "@id": "node/3086127369",
+        "amenity": "restaurant",
+        "cuisine": "cevicheria",
+        "name": "Cevicheria Culebra II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2182672,
+          -13.1550055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086127370",
+      "properties": {
+        "@id": "node/3086127370",
+        "amenity": "restaurant",
+        "name": "Choza Cañaveral"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2198891,
+          -13.154572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086127371",
+      "properties": {
+        "@id": "node/3086127371",
+        "amenity": "restaurant",
+        "cuisine": "polleria",
+        "name": "Polleria El Sabor De Lino"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2204656,
+          -13.1544105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086127372",
+      "properties": {
+        "@id": "node/3086127372",
+        "amenity": "restaurant",
+        "cuisine": "polleria",
+        "name": "Polleria La Cresta de Oro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2199537,
+          -13.1545577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086127373",
+      "properties": {
+        "@id": "node/3086127373",
+        "amenity": "restaurant",
+        "name": "Mi Leydi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2184235,
+          -13.1551205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086127374",
+      "properties": {
+        "@id": "node/3086127374",
+        "amenity": "restaurant",
+        "name": "Restaurant El Gran Marios"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2199963,
+          -13.1545449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086128763",
+      "properties": {
+        "@id": "node/3086128763",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2214536,
+          -13.1521999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086128764",
+      "properties": {
+        "@id": "node/3086128764",
+        "amenity": "bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2221679,
+          -13.1536128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086128765",
+      "properties": {
+        "@id": "node/3086128765",
+        "amenity": "bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2222886,
+          -13.1536801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086129679",
+      "properties": {
+        "@id": "node/3086129679",
+        "amenity": "restaurant",
+        "cuisine": "cevicheria",
+        "name": "Cevicheria y Marisqueria La Sirenita"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2204265,
+          -13.1540987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086129680",
+      "properties": {
+        "@id": "node/3086129680",
+        "amenity": "bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2202484,
+          -13.153487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086129681",
+      "properties": {
+        "@id": "node/3086129681",
+        "amenity": "bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2201195,
+          -13.1535268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086135508",
+      "properties": {
+        "@id": "node/3086135508",
+        "amenity": "restaurant",
+        "cuisine": "aticuchos;parrillas",
+        "name": "Anticuchos y Parrillas Cancun"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2170349,
+          -13.1532104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086135509",
+      "properties": {
+        "@id": "node/3086135509",
+        "amenity": "restaurant",
+        "cuisine": "polleria",
+        "name": "Pollos a la Brasa El Huarango",
+        "phone": 949850795
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2170738,
+          -13.1531473
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086156793",
+      "properties": {
+        "@id": "node/3086156793",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Recreo Restaurant Los Bambues"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2176536,
+          -13.1520518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086156794",
+      "properties": {
+        "@id": "node/3086156794",
+        "amenity": "restaurant",
+        "name": "Restaurant - ChiFa - MArisqueria Imperio"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2174545,
+          -13.1517208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086174110",
+      "properties": {
+        "@id": "node/3086174110",
+        "name": "Casona Lumbreras",
+        "tourism": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2248639,
+          -13.1594524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086174111",
+      "properties": {
+        "@id": "node/3086174111",
+        "amenity": "restaurant",
+        "name": "Costas Chiken"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.224892,
+          -13.158855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086174112",
+      "properties": {
+        "@id": "node/3086174112",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Don Pizero"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2248206,
+          -13.1592237
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086174114",
+      "properties": {
+        "@id": "node/3086174114",
+        "name": "Hospedaje Asamblea",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2250377,
+          -13.1594523
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086195012",
+      "properties": {
+        "@id": "node/3086195012",
+        "name": "Hospedaje Cruzero",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2247203,
+          -13.1586882
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086195013",
+      "properties": {
+        "@id": "node/3086195013",
+        "name": "Hotel Las Americas",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2246384,
+          -13.1583062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086195018",
+      "properties": {
+        "@id": "node/3086195018",
+        "amenity": "restaurant",
+        "name": "Polleria Quispe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2247141,
+          -13.1586596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086195019",
+      "properties": {
+        "@id": "node/3086195019",
+        "amenity": "restaurant",
+        "name": "Pollos a la Braza Don Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2245553,
+          -13.1579452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086201076",
+      "properties": {
+        "@id": "node/3086201076",
+        "amenity": "restaurant",
+        "name": "Restaurant - Polleria Chifa Mi Gente"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.216927,
+          -13.1515563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086201077",
+      "properties": {
+        "@id": "node/3086201077",
+        "amenity": "restaurant",
+        "cuisine": "chifa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2159801,
+          -13.1507127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086287250",
+      "properties": {
+        "@id": "node/3086287250",
+        "addr:street": "Avenida Mariscal Castilla",
+        "name": "Hospedaje La Selecta",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2231808,
+          -13.1640675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086287251",
+      "properties": {
+        "@id": "node/3086287251",
+        "addr:street": "Avenida Mariscal Castilla",
+        "name": "Hospedaje Ñaño",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.223359,
+          -13.1640755
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086295201",
+      "properties": {
+        "@id": "node/3086295201",
+        "addr:housename": 210,
+        "addr:street": "Jr. Dos de Mayo",
+        "amenity": "bank",
+        "name": "Mkipura Microfinanzas",
+        "phone": "066-314612"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.225662,
+          -13.162311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086308576",
+      "properties": {
+        "@id": "node/3086308576",
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "Cooperativa de Ahorro y Crédito De Los Comerciantes Del Peru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2158656,
+          -13.1657351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086308577",
+      "properties": {
+        "@id": "node/3086308577",
+        "name": "Hospedaje El Profe",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2189949,
+          -13.1644335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086308579",
+      "properties": {
+        "@id": "node/3086308579",
+        "amenity": "bank",
+        "name": "Caja Piura"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.225896,
+          -13.1620995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086340372",
+      "properties": {
+        "@id": "node/3086340372",
+        "addr:housenumber": 348,
+        "addr:street": "Avenida Mariscal Castilla",
+        "amenity": "bank",
+        "name": "Cooperativa de Ahorro y Crédito Comerciantes Emprendedores"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.220714,
+          -13.1642682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086340373",
+      "properties": {
+        "@id": "node/3086340373",
+        "addr:housenumber": 342,
+        "addr:street": "Avenida Mariscal Castilla",
+        "amenity": "bank",
+        "name": "Crediservicios Solucion"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2207472,
+          -13.1642509
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086345230",
+      "properties": {
+        "@id": "node/3086345230",
+        "amenity": "restaurant",
+        "cuisine": "cevicheria",
+        "name": "Restaurant Marisquería Mixturas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2242951,
+          -13.1534412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086345231",
+      "properties": {
+        "@id": "node/3086345231",
+        "amenity": "restaurant",
+        "cuisine": "cevicheria",
+        "name": "Altamar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2242022,
+          -13.1534935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086352620",
+      "properties": {
+        "@id": "node/3086352620",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Estancia Villavicencio"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2172878,
+          -13.1625018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086352621",
+      "properties": {
+        "@id": "node/3086352621",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "microbrewery": "yes",
+        "name": "MACHO KUTUTU"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2177075,
+          -13.1627884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086353308",
+      "properties": {
+        "@id": "node/3086353308",
+        "addr:housenumber": 411,
+        "addr:street": "Jr. Mariscal Castilla",
+        "amenity": "bank",
+        "name": "Cooperativa de Ahorro y Crédito Fortaleciendo Nuevos Horizontes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2202498,
+          -13.1641443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086353309",
+      "properties": {
+        "@id": "node/3086353309",
+        "addr:street": "Avenida Mariscal Castilla",
+        "amenity": "bank",
+        "name": "Cooperativa de Ahorro y Crédito de los Comerciantes Emprendedores del VRAEM"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2204641,
+          -13.164127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086354509",
+      "properties": {
+        "@id": "node/3086354509",
+        "amenity": "restaurant",
+        "cuisine": "Cevicheria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2256091,
+          -13.152155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086355727",
+      "properties": {
+        "@id": "node/3086355727",
+        "addr:housenumber": 425,
+        "addr:street": "Avenida Mariscal Castilla",
+        "amenity": "place_of_worship",
+        "denomination": "pentecostal",
+        "name": "Dios es Amor",
+        "religion": "christian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2200885,
+          -13.1641631
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086356290",
+      "properties": {
+        "@id": "node/3086356290",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Kukutu Wasi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2167242,
+          -13.1623357
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086361527",
+      "properties": {
+        "@id": "node/3086361527",
+        "addr:street": "Jr. San Martin",
+        "amenity": "bank",
+        "name": "Cooperativa de Ahorro y Credito VRAE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2293039,
+          -13.1614601
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086378015",
+      "properties": {
+        "@id": "node/3086378015",
+        "addr:housenumber": 484,
+        "addr:street": "Avenida Mariscal Castilla",
+        "amenity": "bank",
+        "name": "Caja Municipal de Ica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2193885,
+          -13.1643861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086378017",
+      "properties": {
+        "@id": "node/3086378017",
+        "addr:housenumber": 470,
+        "addr:street": "Jr. Mariscal Castilla",
+        "amenity": "bank",
+        "name": "Cooperativa de Ahorro y Crédito VRAE - Peru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.219644,
+          -13.1643617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086378018",
+      "properties": {
+        "@id": "node/3086378018",
+        "addr:housenumber": 525,
+        "addr:street": "Jr. Mariscal Castilla",
+        "amenity": "bank",
+        "name": "Financiera Edyficar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2188078,
+          -13.1642749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086385766",
+      "properties": {
+        "@id": "node/3086385766",
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "Caja Piura"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2260494,
+          -13.1620749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086385770",
+      "properties": {
+        "@id": "node/3086385770",
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "Makipura Microfianzas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2256827,
+          -13.1623017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086395066",
+      "properties": {
+        "@id": "node/3086395066",
+        "name": "El Libertador",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2275579,
+          -13.1618831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086395670",
+      "properties": {
+        "@id": "node/3086395670",
+        "addr:street": "Jr. Mariscal Castilla",
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "Cooperativa de Ahorro y Crédito Productoresy MicroEmpresarios"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2174279,
+          -13.1648429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086395671",
+      "properties": {
+        "@id": "node/3086395671",
+        "addr:housenumber": 636,
+        "addr:street": "Jr. Mariscal Castilla",
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "Cooperativa de Ahorro y Crédito de la Federacion de Mercados de Ayacucho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2172588,
+          -13.1649064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086395672",
+      "properties": {
+        "@id": "node/3086395672",
+        "addr:housenumber": 530,
+        "addr:street": "Jr. Mariscal Castilla",
+        "amenity": "bank",
+        "name": "MINKA - PERU"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.218918,
+          -13.164463
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086399952",
+      "properties": {
+        "@id": "node/3086399952",
+        "addr:housenumber": 598,
+        "addr:street": "Jr. Mariscal Castilla",
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "Cooperativa de Ahorro y Crédito Mi Huamanga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2175328,
+          -13.1648247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086402060",
+      "properties": {
+        "@id": "node/3086402060",
+        "addr:street": "Jr. El Sol",
+        "name": "Hospedaje Amancer",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2234503,
+          -13.1636468
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086408480",
+      "properties": {
+        "@id": "node/3086408480",
+        "amenity": "bank",
+        "name": "ADES Peru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2234816,
+          -13.163088
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086502639",
+      "properties": {
+        "@id": "node/3086502639",
+        "amenity": "restaurant",
+        "name": "Polleria Flore's Chiken's"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2281503,
+          -13.1433319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086502640",
+      "properties": {
+        "@id": "node/3086502640",
+        "amenity": "restaurant",
+        "name": "Polleria Naquita Chicken's"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2281376,
+          -13.1433967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086520626",
+      "properties": {
+        "@id": "node/3086520626",
+        "amenity": "restaurant",
+        "cuisine": "Polleria",
+        "name": "Gallo de Oro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2257224,
+          -13.151617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086589918",
+      "properties": {
+        "@id": "node/3086589918",
+        "amenity": "restaurant",
+        "name": "Chifa Choysan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2301653,
+          -13.134769
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086589919",
+      "properties": {
+        "@id": "node/3086589919",
+        "amenity": "bank",
+        "name": "Cooperativa Riqueza del Peru",
+        "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-12:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2290944,
+          -13.1398155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086589921",
+      "properties": {
+        "@id": "node/3086589921",
+        "amenity": "restaurant",
+        "name": "El Chino"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2299911,
+          -13.1347514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086589922",
+      "properties": {
+        "@id": "node/3086589922",
+        "amenity": "restaurant",
+        "name": "El Juanito"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2288794,
+          -13.1382823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086589925",
+      "properties": {
+        "@id": "node/3086589925",
+        "name": "Hospedaje Terminal",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.229917,
+          -13.1347378
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086589927",
+      "properties": {
+        "@id": "node/3086589927",
+        "amenity": "restaurant",
+        "name": "Recreo Peña Turistica Panchila"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2286631,
+          -13.1431925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086589928",
+      "properties": {
+        "@id": "node/3086589928",
+        "amenity": "restaurant",
+        "name": "Recreo Turistico Asu Mare"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2294604,
+          -13.1370369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086589929",
+      "properties": {
+        "@id": "node/3086589929",
+        "amenity": "restaurant",
+        "name": "Restaurant Diana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.229435,
+          -13.1373771
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086589930",
+      "properties": {
+        "@id": "node/3086589930",
+        "amenity": "restaurant",
+        "name": "Rinconcito Huancahino"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2257251,
+          -13.1445511
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086589931",
+      "properties": {
+        "@id": "node/3086589931",
+        "amenity": "restaurant",
+        "name": "Top Chicken"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2268131,
+          -13.1436723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086590234",
+      "properties": {
+        "@id": "node/3086590234",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2303536,
+          -13.1347963
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086590236",
+      "properties": {
+        "@id": "node/3086590236",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2290953,
+          -13.1360049
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086590243",
+      "properties": {
+        "@id": "node/3086590243",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2289025,
+          -13.1381565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086590250",
+      "properties": {
+        "@id": "node/3086590250",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2271979,
+          -13.1435637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086593167",
+      "properties": {
+        "@id": "node/3086593167",
+        "addr:street": "Jr. Quinua",
+        "name": "Hotel La Reserva",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2267885,
+          -13.1544111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086598768",
+      "properties": {
+        "@id": "node/3086598768",
+        "amenity": "restaurant",
+        "cuisine": "Cevicheria",
+        "name": "El Hipocampo de Oro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2251302,
+          -13.1521368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086620452",
+      "properties": {
+        "@id": "node/3086620452",
+        "amenity": "bar",
+        "name": "Licoreria Las Previas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2278045,
+          -13.1616619
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086724756",
+      "properties": {
+        "@id": "node/3086724756",
+        "name": "Ronda",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2226248,
+          -13.1605443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086771258",
+      "properties": {
+        "@id": "node/3086771258",
+        "amenity": "bus_station",
+        "name": "SebasTours"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2261425,
+          -13.1560849
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086778018",
+      "properties": {
+        "@id": "node/3086778018",
+        "amenity": "restaurant",
+        "cuisine": "Marisqueria",
+        "name": "Marisqueria La Ramadita del Gringo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2074496,
+          -13.1569656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086779496",
+      "properties": {
+        "@id": "node/3086779496",
+        "addr:street": "Jr. Quinua",
+        "name": "Hospedaje Bellido",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2270808,
+          -13.158266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086783052",
+      "properties": {
+        "@id": "node/3086783052",
+        "amenity": "restaurant",
+        "name": "Mama Rebeca"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2269427,
+          -13.1575579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086787669",
+      "properties": {
+        "@id": "node/3086787669",
+        "amenity": "bank",
+        "name": "Cooperativa de Ahorro y Credito Casa Organica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2270746,
+          -13.1575777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086811483",
+      "properties": {
+        "@id": "node/3086811483",
+        "amenity": "bank",
+        "name": "Cooperativa de Ahorro y Credito LlamkasunPeru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2267195,
+          -13.1561144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086811484",
+      "properties": {
+        "@id": "node/3086811484",
+        "amenity": "place_of_worship",
+        "category": "temple",
+        "name": "Iglesia de Jesucristo de los Santos de los ultimos dias"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2267546,
+          -13.1562045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086811485",
+      "properties": {
+        "@id": "node/3086811485",
+        "amenity": "restaurant",
+        "cuisine": "polleria",
+        "name": "Shijani Antojitos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2268469,
+          -13.1566643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086814056",
+      "properties": {
+        "@id": "node/3086814056",
+        "amenity": "bank",
+        "name": "Cooperativa de Ahorro y Credito Jhireh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2266119,
+          -13.1555252
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3086814057",
+      "properties": {
+        "@id": "node/3086814057",
+        "amenity": "restaurant",
+        "cuisine": "Polleria y Parrilla",
+        "name": "La Real Instancia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2266482,
+          -13.1556797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3087901068",
+      "properties": {
+        "@id": "node/3087901068",
+        "amenity": "restaurant",
+        "name": "Mawka manka"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2138024,
+          -13.1509734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3088114674",
+      "properties": {
+        "@id": "node/3088114674",
+        "amenity": "place_of_worship",
+        "name": "Iglesia Cristiana Evangelica Las Asambleistas de Dios del Peru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2131844,
+          -13.1535007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3088114675",
+      "properties": {
+        "@id": "node/3088114675",
+        "addr:housenumber": 298,
+        "addr:street": "Jr. Manuel Alarcon",
+        "amenity": "place_of_worship",
+        "name": "Iglesia Evangelica Monte Alto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.212882,
+          -13.1520624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3089400396",
+      "properties": {
+        "@id": "node/3089400396",
+        "addr:housenumber": 196,
+        "addr:street": "Jr. Lima",
+        "amenity": "bank",
+        "name": "Caja Municipal Cusco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.227547,
+          -13.1605265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3089757527",
+      "properties": {
+        "@id": "node/3089757527",
+        "addr:city": "Ayacucho",
+        "addr:street": "Jr. Garcilazo De La Vega",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Anticuchos Yovanita",
+        "opening_hours": "16:00-23:00",
+        "smoking": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.227081,
+          -13.157777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3090806800",
+      "properties": {
+        "@id": "node/3090806800",
+        "amenity": "place_of_worship",
+        "denomination": "catholic",
+        "religion": "christian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2027591,
+          -13.1785868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3091018940",
+      "properties": {
+        "@id": "node/3091018940",
+        "amenity": "place_of_worship",
+        "building": "church",
+        "denomination": "catholic",
+        "name": "Iglesia de Carmen Alto",
+        "religion": "christian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2265134,
+          -13.1759976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3091137687",
+      "properties": {
+        "@id": "node/3091137687",
+        "addr:street": "Av. Las Americas",
+        "amenity": "restaurant",
+        "cuisine": "Traditional Food",
+        "name": "Recreo los Arcos de America"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2132918,
+          -13.1686056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3091425756",
+      "properties": {
+        "@id": "node/3091425756",
+        "name": "Hotel Rafaela",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.227681,
+          -13.1568451
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3091457019",
+      "properties": {
+        "@id": "node/3091457019",
+        "amenity": "nightclub",
+        "name": "Discoteka Killa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2356222,
+          -13.155642
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3091637673",
+      "properties": {
+        "@id": "node/3091637673",
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "Banco de la Nación"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2235627,
+          -13.1658615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3091647695",
+      "properties": {
+        "@id": "node/3091647695",
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "Cooperativa de Ahorro y Credido San Pedro de Andahuaylas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2238506,
+          -13.1648001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3091647697",
+      "properties": {
+        "@id": "node/3091647697",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "PAULA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2237655,
+          -13.164615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3091653104",
+      "properties": {
+        "@id": "node/3091653104",
+        "name": "El imperio 2",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.223703,
+          -13.1645201
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3091653107",
+      "properties": {
+        "@id": "node/3091653107",
+        "amenity": "bus_station",
+        "name": "Tinka Tour's"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2234141,
+          -13.1641646
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3091664020",
+      "properties": {
+        "@id": "node/3091664020",
+        "amenity": "restaurant",
+        "cuisine": "polleria",
+        "name": "El Pechugón"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2274036,
+          -13.1523997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3091665646",
+      "properties": {
+        "@id": "node/3091665646",
+        "amenity": "nightclub",
+        "name": "Asia Sur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2256932,
+          -13.1680299
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3093464174",
+      "properties": {
+        "@id": "node/3093464174",
+        "amenity": "restaurant",
+        "cuisine": "Comida Tipica",
+        "name": "Recreo Turistico Santa Rosa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2093164,
+          -13.169827
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3093465840",
+      "properties": {
+        "@id": "node/3093465840",
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "Caja Rural de Ahorro y Credito Los Libertadores de Ayacucho S.A."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.225785,
+          -13.1627721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3093469335",
+      "properties": {
+        "@id": "node/3093469335",
+        "amenity": "restaurant",
+        "cuisine": "Cevicheria",
+        "name": "Cevicheria El Ajicito"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2125666,
+          -13.1668953
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3093469336",
+      "properties": {
+        "@id": "node/3093469336",
+        "amenity": "restaurant",
+        "name": "Restaurant A mi manera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2116328,
+          -13.1670865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3094089743",
+      "properties": {
+        "@id": "node/3094089743",
+        "amenity": "bank",
+        "name": "Cooperativa de Ahorro y Credito Las Américas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2265996,
+          -13.1544353
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3094461102",
+      "properties": {
+        "@id": "node/3094461102",
+        "amenity": "restaurant",
+        "cuisine": "Polleria y Parrilla",
+        "name": "Las Tinajas Chicken & Grill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2259608,
+          -13.1609895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3094470407",
+      "properties": {
+        "@id": "node/3094470407",
+        "amenity": "restaurant",
+        "cuisine": "Polleria y Parrilla",
+        "name": "El Nino"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2262351,
+          -13.158258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3200258072",
+      "properties": {
+        "@id": "node/3200258072",
+        "amenity": "bar",
+        "name": "Centrica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2237389,
+          -13.1551143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3200260004",
+      "properties": {
+        "@id": "node/3200260004",
+        "amenity": "place_of_worship",
+        "building": "chapel",
+        "denomination": "catholic",
+        "name": "Capilla Señor de los Milagros",
+        "opening_hours": "Sa-Su 00:00-24:00",
+        "religion": "christian",
+        "service_times": "Sa 10:00+"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2170895,
+          -13.1816128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3203879834",
+      "properties": {
+        "@id": "node/3203879834",
+        "amenity": "restaurant",
+        "name": "Cevicheria Maria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2275168,
+          -13.1647085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3307862817",
+      "properties": {
+        "@id": "node/3307862817",
+        "amenity": "restaurant",
+        "cuisine": "Cevicheria",
+        "name": "Caleta del pescador"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2312304,
+          -13.1559347
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3307862818",
+      "properties": {
+        "@id": "node/3307862818",
+        "amenity": "restaurant",
+        "cuisine": "Cevicheria",
+        "name": "Conchas negras"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2310765,
+          -13.1562625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3307862819",
+      "properties": {
+        "@id": "node/3307862819",
+        "amenity": "restaurant",
+        "cuisine": "Cevicheria",
+        "name": "Langostino"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2312713,
+          -13.1560332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3307948045",
+      "properties": {
+        "@id": "node/3307948045",
+        "name": "Hospedaje",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2107045,
+          -13.1695061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3307948046",
+      "properties": {
+        "@id": "node/3307948046",
+        "name": "Hotel Malibu",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2086508,
+          -13.1698239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3307948287",
+      "properties": {
+        "@id": "node/3307948287",
+        "amenity": "restaurant",
+        "cuisine": "Polleria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.209977,
+          -13.1702534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3307948289",
+      "properties": {
+        "@id": "node/3307948289",
+        "amenity": "restaurant",
+        "cuisine": "Polleria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2099239,
+          -13.170302
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3307948290",
+      "properties": {
+        "@id": "node/3307948290",
+        "amenity": "restaurant",
+        "cuisine": "Polleria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2098628,
+          -13.1703515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3307952231",
+      "properties": {
+        "@id": "node/3307952231",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2188279,
+          -13.1664052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3307952232",
+      "properties": {
+        "@id": "node/3307952232",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2185425,
+          -13.1669687
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3307957522",
+      "properties": {
+        "@id": "node/3307957522",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2293916,
+          -13.1578796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3307984036",
+      "properties": {
+        "@id": "node/3307984036",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2174398,
+          -13.1554371
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3307985788",
+      "properties": {
+        "@id": "node/3307985788",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.208854,
+          -13.1686026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3307985789",
+      "properties": {
+        "@id": "node/3307985789",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2086209,
+          -13.1686638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3375685357",
+      "properties": {
+        "@id": "node/3375685357",
+        "name": "Hospedaje Karol",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2289647,
+          -13.1604515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3377093832",
+      "properties": {
+        "@id": "node/3377093832",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "microbrewery": "yes",
+        "name": "Las Flores"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2178801,
+          -13.1628496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3404800614",
+      "properties": {
+        "@id": "node/3404800614",
+        "amenity": "restaurant",
+        "name": "Nose test"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2235966,
+          -13.156485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3405685670",
+      "properties": {
+        "@id": "node/3405685670",
+        "amenity": "place_of_worship",
+        "denomination": "catholic",
+        "name": "Capilla Serñor del Huerto",
+        "religion": "christian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2252405,
+          -13.1379419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3405866330",
+      "properties": {
+        "@id": "node/3405866330",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Cevicheria La Foquita"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2287045,
+          -13.134718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3405866331",
+      "properties": {
+        "@id": "node/3405866331",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Cevicheria Puerto Marino"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2285776,
+          -13.13477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3405866334",
+      "properties": {
+        "@id": "node/3405866334",
+        "name": "Hospedaje Wari",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2288386,
+          -13.1346735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3405866336",
+      "properties": {
+        "@id": "node/3405866336",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Polleria Berrocal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2292269,
+          -13.1345092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3405866337",
+      "properties": {
+        "@id": "node/3405866337",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Polleria Cresta de Oro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2287674,
+          -13.1346969
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3405866338",
+      "properties": {
+        "@id": "node/3405866338",
+        "amenity": "restaurant",
+        "name": "Stefany"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2287945,
+          -13.1349501
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3405866341",
+      "properties": {
+        "@id": "node/3405866341",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Pollos a a Brasa Alex Junior"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2283502,
+          -13.1355373
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3405934643",
+      "properties": {
+        "@id": "node/3405934643",
+        "amenity": "place_of_worship",
+        "denomination": "pentecostal",
+        "name": "Iglesia Mision Pentecostes del Perú Fuente de Agua",
+        "religion": "christian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2312454,
+          -13.1353177
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3405997033",
+      "properties": {
+        "@id": "node/3405997033",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1991499,
+          -13.155737
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3429057195",
+      "properties": {
+        "@id": "node/3429057195",
+        "addr:city": "Ayacucho",
+        "addr:postcode": "066",
+        "addr:street": "Jirón Asamblea Nro. 187 - Interior Pasaje Izquierdo",
+        "amenity": "bar",
+        "name": "Babieca - Karaoke Cafe",
+        "opening_hours": "8:00 AM - 00:00 AM",
+        "smoking": "separated",
+        "website": "https://www.facebook.com/ccbabieca"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2250676,
+          -13.1590066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717386625",
+      "properties": {
+        "@id": "node/3717386625",
+        "amenity": "place_of_worship",
+        "name": "Iglesia Adventista del Septimo Dia \" EL FARO\""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2120537,
+          -13.1542849
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717386626",
+      "properties": {
+        "@id": "node/3717386626",
+        "amenity": "place_of_worship",
+        "name": "Iglesia Evangelica Pentecostal Del Perú"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2130706,
+          -13.1547608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717393255",
+      "properties": {
+        "@id": "node/3717393255",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2271456,
+          -13.1595364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717421281",
+      "properties": {
+        "@id": "node/3717421281",
+        "amenity": "restaurant",
+        "cuisine": "polleria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.217236,
+          -13.1529007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717437625",
+      "properties": {
+        "@id": "node/3717437625",
+        "amenity": "restaurant",
+        "name": "Sabor Andino"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.226759,
+          -13.162304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717446403",
+      "properties": {
+        "@id": "node/3717446403",
+        "name": "Hospedaje Los Inkas",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2174634,
+          -13.154285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717452379",
+      "properties": {
+        "@id": "node/3717452379",
+        "amenity": "restaurant",
+        "name": "Bravia Chicken"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2275849,
+          -13.1593594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717460890",
+      "properties": {
+        "@id": "node/3717460890",
+        "amenity": "bank",
+        "name": "JJP INMOBILIARIA S.A FINANCIERA REGIONAL AYACUCHO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2288008,
+          -13.1381165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717460891",
+      "properties": {
+        "@id": "node/3717460891",
+        "amenity": "restaurant",
+        "name": "Pollos a a Brasa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2287356,
+          -13.1385988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717460892",
+      "properties": {
+        "@id": "node/3717460892",
+        "name": "WARI",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2292131,
+          -13.1349322
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717460895",
+      "properties": {
+        "@id": "node/3717460895",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2290638,
+          -13.1361166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717460897",
+      "properties": {
+        "@id": "node/3717460897",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2287697,
+          -13.138421
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717461945",
+      "properties": {
+        "@id": "node/3717461945",
+        "amenity": "restaurant",
+        "cuisine": "chicken"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2111,
+          -13.1680066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717463681",
+      "properties": {
+        "@id": "node/3717463681",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2313244,
+          -13.1562676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717503286",
+      "properties": {
+        "@id": "node/3717503286",
+        "amenity": "restaurant",
+        "name": "Restaurant Polleria el Chio"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.229593,
+          -13.1359109
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717505705",
+      "properties": {
+        "@id": "node/3717505705",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2273373,
+          -13.1643996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717509850",
+      "properties": {
+        "@id": "node/3717509850",
+        "name": "Hospedaje Yumel",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2128047,
+          -13.1671525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717509851",
+      "properties": {
+        "@id": "node/3717509851",
+        "amenity": "restaurant",
+        "name": "Kibo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.208948,
+          -13.1606068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717509853",
+      "properties": {
+        "@id": "node/3717509853",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2130646,
+          -13.1670081
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717509854",
+      "properties": {
+        "@id": "node/3717509854",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2130174,
+          -13.1670391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717509855",
+      "properties": {
+        "@id": "node/3717509855",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2129809,
+          -13.1670714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717509857",
+      "properties": {
+        "@id": "node/3717509857",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2127595,
+          -13.1671815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717509858",
+      "properties": {
+        "@id": "node/3717509858",
+        "amenity": "bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2127056,
+          -13.1672227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717512366",
+      "properties": {
+        "@id": "node/3717512366",
+        "name": "EL SILENCIO",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2290025,
+          -13.140502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717513849",
+      "properties": {
+        "@id": "node/3717513849",
+        "amenity": "bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2122449,
+          -13.1674651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717513850",
+      "properties": {
+        "@id": "node/3717513850",
+        "amenity": "bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2122027,
+          -13.1674796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717515997",
+      "properties": {
+        "@id": "node/3717515997",
+        "amenity": "restaurant",
+        "name": "POLLERIA CHIFA 4 ESTACIONES"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2286733,
+          -13.1429893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717515998",
+      "properties": {
+        "@id": "node/3717515998",
+        "amenity": "restaurant",
+        "name": "POLLOS A LA BRASA LULI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.228627,
+          -13.143275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717515999",
+      "properties": {
+        "@id": "node/3717515999",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2287905,
+          -13.1422006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717517559",
+      "properties": {
+        "@id": "node/3717517559",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2288535,
+          -13.1415959
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717520115",
+      "properties": {
+        "@id": "node/3717520115",
+        "amenity": "place_of_worship",
+        "religion": "spiritualist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.209463,
+          -13.1699079
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717520116",
+      "properties": {
+        "@id": "node/3717520116",
+        "amenity": "bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2098763,
+          -13.1701219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717525099",
+      "properties": {
+        "@id": "node/3717525099",
+        "amenity": "restaurant",
+        "name": "CHIFA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2286192,
+          -13.1433401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717525228",
+      "properties": {
+        "@id": "node/3717525228",
+        "addr:street": "Avenida Mariscal Castilla",
+        "name": "Castilla",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2198558,
+          -13.1641395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717525229",
+      "properties": {
+        "@id": "node/3717525229",
+        "addr:street": "Jr. Mariscal Castilla",
+        "amenity": "bank",
+        "name": "Cooperativa De Ahorro y Credito Financer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2179951,
+          -13.1644427
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717525230",
+      "properties": {
+        "@id": "node/3717525230",
+        "addr:street": "Jr. Mariscal Castilla",
+        "amenity": "bank",
+        "name": "Cooperativa De Ahorro y Credito Huaychao"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2181766,
+          -13.1643914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717525231",
+      "properties": {
+        "@id": "node/3717525231",
+        "addr:street": "Jr. Mariscal Castilla",
+        "amenity": "bank",
+        "name": "Cooperativa De Ahorro y Credito Las Tres Regiones"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2178738,
+          -13.1644972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717525232",
+      "properties": {
+        "@id": "node/3717525232",
+        "addr:street": "Avenida Mariscal Castilla",
+        "amenity": "bank",
+        "name": "Cooperativa De Ahorro y Credito Lideres Del Peru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.21975,
+          -13.1643371
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717525255",
+      "properties": {
+        "@id": "node/3717525255",
+        "addr:street": "Avenida Mariscal Castilla",
+        "amenity": "bank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2198579,
+          -13.1641812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717525259",
+      "properties": {
+        "@id": "node/3717525259",
+        "addr:street": "Avenida Mariscal Castilla",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2194201,
+          -13.1642342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717525261",
+      "properties": {
+        "@id": "node/3717525261",
+        "addr:street": "Avenida Mariscal Castilla",
+        "amenity": "restaurant",
+        "cuisine": "chicken"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2190387,
+          -13.1642865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717525279",
+      "properties": {
+        "@id": "node/3717525279",
+        "amenity": "restaurant",
+        "cuisine": "chinese"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2167365,
+          -13.1651037
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717541662",
+      "properties": {
+        "@id": "node/3717541662",
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "Caja Municipal Ica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.22219,
+          -13.1579467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717545025",
+      "properties": {
+        "@id": "node/3717545025",
+        "amenity": "restaurant",
+        "name": "EL MUY RICO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2280524,
+          -13.1438163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717549872",
+      "properties": {
+        "@id": "node/3717549872",
+        "amenity": "nightclub",
+        "name": "El Caviar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2217547,
+          -13.1560798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717558193",
+      "properties": {
+        "@id": "node/3717558193",
+        "addr:street": "Jirón Asamblea",
+        "amenity": "restaurant",
+        "cuisine": "Pollos y Parrillas",
+        "name": "El Dorado"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2244068,
+          -13.157287
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717577350",
+      "properties": {
+        "@id": "node/3717577350",
+        "amenity": "bank",
+        "name": "Cooperativa de Ahorro y Credido Waricoop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2195404,
+          -13.1586686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717577351",
+      "properties": {
+        "@id": "node/3717577351",
+        "amenity": "bank",
+        "name": "Cooperativa de Ahorro y Crédito Federacion de Mercados de Ayacucho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2193331,
+          -13.158692
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717579189",
+      "properties": {
+        "@id": "node/3717579189",
+        "addr:street": "Avenida Mariscal Castilla",
+        "amenity": "bank",
+        "name": "Finaciera Confianza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2208074,
+          -13.1642489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717579191",
+      "properties": {
+        "@id": "node/3717579191",
+        "addr:street": "Avenida Mariscal Castilla",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2212379,
+          -13.1640726
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717579192",
+      "properties": {
+        "@id": "node/3717579192",
+        "addr:street": "Avenida Mariscal Castilla",
+        "amenity": "restaurant",
+        "cuisine": "chicken"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2208443,
+          -13.1640931
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717582925",
+      "properties": {
+        "@id": "node/3717582925",
+        "name": "Momentos",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2251922,
+          -13.1452746
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717595398",
+      "properties": {
+        "@id": "node/3717595398",
+        "amenity": "bank",
+        "name": "Minka Peru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2274435,
+          -13.164839
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717595403",
+      "properties": {
+        "@id": "node/3717595403",
+        "name": "Secretos",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2278576,
+          -13.1670256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717602558",
+      "properties": {
+        "@id": "node/3717602558",
+        "name": "El Olimpo",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2239947,
+          -13.1473693
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717615691",
+      "properties": {
+        "@id": "node/3717615691",
+        "amenity": "bank",
+        "name": "Agrobanco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2272364,
+          -13.1607121
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717615692",
+      "properties": {
+        "@id": "node/3717615692",
+        "amenity": "bank",
+        "name": "Cooperativa de Ahorro y Crédito San Pedro de Andahuaylas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2270929,
+          -13.1607428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717615693",
+      "properties": {
+        "@id": "node/3717615693",
+        "amenity": "bank",
+        "name": "Cooperativa de Ahorro y Crédito Transportistas del Sur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2270344,
+          -13.1607596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717626186",
+      "properties": {
+        "@id": "node/3717626186",
+        "amenity": "bank",
+        "name": "Cooperativa de Ahorro y Crédito Juan Pablo II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2269404,
+          -13.1607889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3779584541",
+      "properties": {
+        "@id": "node/3779584541",
+        "amenity": "restaurant",
+        "cuisine": "chicken",
+        "name": "Delicias"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2131583,
+          -13.1667115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3779658945",
+      "properties": {
+        "@id": "node/3779658945",
+        "addr:street": "Avenida Mariscal Castilla",
+        "amenity": "bank",
+        "name": "Caja Huancayo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2211442,
+          -13.1642376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3779679065",
+      "properties": {
+        "@id": "node/3779679065",
+        "addr:street": "Avenida Mariscal Castilla",
+        "name": "Hospedaje Los Jazmines",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2232932,
+          -13.1640622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3779728165",
+      "properties": {
+        "@id": "node/3779728165",
+        "addr:street": "Avenida Mariscal Castilla",
+        "amenity": "bank",
+        "name": "Cooperativa De Ahorro y Credito Santa Maria Magdalena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2218731,
+          -13.163996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3779962056",
+      "properties": {
+        "@id": "node/3779962056",
+        "amenity": "restaurant",
+        "cuisine": "Polleria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2099403,
+          -13.1705883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3780070472",
+      "properties": {
+        "@id": "node/3780070472",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "microbrewery": "no",
+        "name": "Samariy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2255054,
+          -13.1637259
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3780134682",
+      "properties": {
+        "@id": "node/3780134682",
+        "amenity": "restaurant",
+        "name": "Bagrecico Aventurero"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2251749,
+          -13.1639888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3780187788",
+      "properties": {
+        "@id": "node/3780187788",
+        "amenity": "restaurant",
+        "name": "Puerto Palmeras"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2238581,
+          -13.1654483
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3867441391",
+      "properties": {
+        "@id": "node/3867441391",
+        "amenity": "bus_station",
+        "name": "Terrapuerto Plaza Wari"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2301751,
+          -13.1342756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3867454575",
+      "properties": {
+        "@id": "node/3867454575",
+        "amenity": "bus_station",
+        "name": "Agencia Molina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2211091,
+          -13.1502949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "amenity": "place_of_worship",
+        "name": "Basílica Catedral",
+        "tourism": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2248585820198,
+          -13.16078278821853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "tourism": "attraction",
+        "name": "Casa Castilla y Zamora"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.22496050596237,
+          -13.16107530524517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "tourism": "hotel",
+        "name": "Hotel Plaza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.22584295272827,
+          -13.158839630534557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "amenity": "place_of_worship",
+        "name": "Iglesia Pentecostal Mundial Misionera Mundial"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.22616213560104,
+          -13.159022455166836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "tourism": "attraction",
+        "name": "Centro Cultural UNSCH"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.22526627779007,
+          -13.159860834948084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "amenity": "place_of_worship",
+        "name": "San Agustin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2246949672699,
+          -13.159907846813509
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "amenity": "place_of_worship",
+        "name": "Templo de Santo Domingo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.22560960054396,
+          -13.158393015502167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "amenity": "restaurant",
+        "name": "La Casona"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.22533601522446,
+          -13.158622852579544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "tourism": "hotel",
+        "name": "Hotel Conde Duque"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2249846458435,
+          -13.159309750742006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "amenity": "place_of_worship",
+        "name": "Templo y Monasterio de Santa Clara de Asís"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.22836959362029,
+          -13.163282230484311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "amenity": "place_of_worship",
+        "name": "Iglesia de La Sagrada Familia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.22388225793839,
+          -13.149068761459382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "amenity": "restaurant",
+        "name": "Cebicheria Marisqueria EL Cangrejo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.22794044017792,
+          -13.148044900195849
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "amenity": "bank",
+        "name": "Cooperativa de Ahorro y Credito Nuestra Región"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.22822207212448,
+          -13.147885574461881
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "amenity": "restaurant",
+        "name": "El Nuevo Misky"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.22769099473953,
+          -13.148564667034686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "amenity": "restaurant",
+        "name": "Estacion de 3 Sabores"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.22749519348145,
+          -13.148379222711025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "tourism": "hotel",
+        "name": "Hotel Interacional"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.22996014356612,
+          -13.153062301913446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "amenity": "bar",
+        "name": "Dante"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.21867609024048,
+          -13.151025055916522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "amenity": "place_of_worship",
+        "name": "Capilla Santa Rosa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2165356874466,
+          -13.152837683313248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "amenity": "place_of_worship",
+        "name": "Templo del Arco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.22514289617538,
+          -13.154289865046483
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "amenity": "restaurant",
+        "name": "Cevicheria Marisqueria Gato Marino"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.22425776720047,
+          -13.15576815632101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "amenity": "place_of_worship",
+        "name": "Templo El Calvario"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.22929763793945,
+          -13.157225544292448
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "amenity": "nightclub",
+        "name": "Discoteca Macumba"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.22549158334732,
+          -13.157491947608532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "amenity": "nightclub",
+        "name": "Maxx oh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2250543832779,
+          -13.15758336044438
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "amenity": "restaurant",
+        "name": "Chifa Samsi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.22582149505615,
+          -13.158147507476873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "amenity": "place_of_worship",
+        "name": "Templo de San Francisco de Paula"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.22739058732986,
+          -13.159685846258629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "tourism": "hotel",
+        "name": "Hotel Santa Rosa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.22718405723572,
+          -13.16060257666222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "amenity": "place_of_worship",
+        "name": "Templo de la Compañía de Jesús"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.22670930624008,
+          -13.16127641049842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "amenity": "place_of_worship",
+        "name": "Templo y Convento de San Francisco de Asis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.22686219215393,
+          -13.163355359027696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "amenity": "place_of_worship",
+        "name": "Templo La Merced"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.22549426555634,
+          -13.162496097264318
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "amenity": "place_of_worship",
+        "name": "Templo de Buena Muerte"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.22400832176208,
+          -13.161446174544757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "tourism": "hotel",
+        "name": "Santa Maria Hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.22275573015213,
+          -13.161738690779453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "amenity": "place_of_worship",
+        "name": "Templo de Amargura"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.22054558992386,
+          -13.160761894131847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "amenity": "place_of_worship",
+        "name": "Templo de la Magdalena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.22142267227173,
+          -13.157878493081673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "amenity": "place_of_worship",
+        "name": "Templo y Monasterio de Santa Teresa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.22784119844437,
+          -13.167907567875355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "amenity": "bank",
+        "name": "Finca Peru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.22768026590347,
+          -13.167351278388713
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "amenity": "place_of_worship",
+        "name": "Templo San Cristóbal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.22735303640366,
+          -13.16801725861088
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "amenity": "place_of_worship",
+        "name": "Templo de San Juan Bautista"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.22335118055344,
+          -13.166434573238549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "amenity": "place_of_worship",
+        "name": "Santuario del Sr. de Quinuapata"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.23408538103104,
+          -13.166055876377333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "amenity": "restaurant",
+        "name": "Cevicheria Marisqueria EL Barrunto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.21767830848694,
+          -13.155109978267918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "tourism": "attraction",
+        "name": " Campus Universitario de la Universidad Nacional  de San Cristóbal de Huamanga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.22126710414886,
+          -13.147956095701153
+        ]
+      }
+    }
+  ]
+}
